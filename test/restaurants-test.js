@@ -8,7 +8,7 @@ import { createStore } from 'redux';
 import manageRestaurant, { cuidFn } from '../src/reducers/manageRestaurant'
 import App from '../src/App'
 import Restaurants from '../src/components/restaurants/Restaurants'
-import Restaurant from '../src/components/restaurants/Restaurant'
+import {Restaurant} from '../src/components/restaurants/Restaurant'
 import Adapter from 'enzyme-adapter-react-16'
 
 configure({ adapter: new Adapter() })
